@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="biblioteca.html">Biblioteca</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="biblioteca">
+            <h1>Biblioteca</h1>
+            <div class="ciclos">
+                <h2 onclick="toggleDisplay('ciclo1')">1º Ciclo ⮟</h2>
+                <div id="ciclo1" class="hidden">
+                    <h3 onclick="toggleDisplay('classe8')">8ª Classe ⮟</h3>
+                    <div id="classe8" class="hidden livros-container">
+                        <div class="livro"><img src="img/portugues.jpg" alt="Português"><a href="biblioteca/1_ciclo/8_classe/portugues.pdf" target="_blank">Português</a></div>
+                        <div class="livro"><img src="img/matematica.jpg" alt="Matemática"><a href="biblioteca/1_ciclo/8_classe/matematica.pdf" target="_blank">Matemática</a></div>
+                        <div class="livro"><img src="img/biologia.jpg" alt="Biologia"><a href="biblioteca/1_ciclo/8_classe/biologia.pdf" target="_blank">Biologia</a></div>
+                        <div class="livro"><img src="img/quimica.jpg" alt="Química"><a href="biblioteca/1_ciclo/8_classe/quimica.pdf" target="_blank">Química</a></div>
+                        <div class="livro"><img src="img/fisica.jpg" alt="Física"><a href="biblioteca/1_ciclo/8_classe/fisica.pdf" target="_blank">Física</a></div>
+                        <div class="livro"><img src="img/tics.jpg" alt="TICs"><a href="biblioteca/1_ciclo/8_classe/tics.pdf" target="_blank">TICs</a></div>
+                        <div class="livro"><img src="img/educacao_fisica.jpg" alt="Educação Física"><a href="biblioteca/1_ciclo/8_classe/educacao_fisica.pdf" target="_blank">Educação Física</a></div>
+                    </div>
+
+                    <h3 onclick="toggleDisplay('classe9')">9ª Classe ⮟</h3>
+                    <div id="classe9" class="hidden livros-container">
+                        <div class="livro"><img src="img/portugues.jpg" alt="Português"><a href="biblioteca/1_ciclo/9_classe/portugues.pdf" target="_blank">Português</a></div>
+                        <div class="livro"><img src="img/matematica.jpg" alt="Matemática"><a href="biblioteca/1_ciclo/9_classe/matematica.pdf" target="_blank">Matemática</a></div>
+                        <div class="livro"><img src="img/fisica.jpg" alt="Física"><a href="biblioteca/1_ciclo/9_classe/fisica.pdf" target="_blank">Física</a></div>
+                        <div class="livro"><img src="img/biologia.jpg" alt="Biologia"><a href="biblioteca/1_ciclo/9_classe/biologia.pdf" target="_blank">Biologia</a></div>
+                        <div class="livro"><img src="img/tics.jpg" alt="TICs"><a href="biblioteca/1_ciclo/9_classe/tics.pdf" target="_blank">TICs</a></div>
+                        <div class="livro"><img src="img/ingles.jpg" alt="Inglês"><a href="biblioteca/1_ciclo/9_classe/ingles.pdf" target="_blank">Inglês</a></div>
+                    </div>
+                </div>
+
+                <h2 onclick="toggleDisplay('ciclo2')">2º Ciclo ⮟</h2>
+                <div id="ciclo2" class="hidden">
+                    <h3 onclick="toggleDisplay('classe11')">11ª Classe ⮟</h3>
+                    <div id="classe11" class="hidden livros-container">
+                        <div class="livro"><img src="img/portugues1.jpg" alt="Português"><a href="biblioteca/2_ciclo/11_classe/portugues.pdf" target="_blank">Português</a></div>
+                        <div class="livro"><img src="img/matematica1.jpg" alt="Matemática"><a href="biblioteca/2_ciclo/11_classe/matematica.pdf" target="_blank">Matemática</a></div>
+                        <div class="livro"><img src="img/fisica1.jpg" alt="Física"><a href="biblioteca/2_ciclo/11_classe/fisica.pdf" target="_blank">Física</a></div>
+                        <div class="livro"><img src="img/quimica1.jpg" alt="Química"><a href="biblioteca/2_ciclo/11_classe/quimica.pdf" target="_blank">Química</a></div>
+                        <div class="livro"><img src="img/historia1.jpg" alt="História"><a href="biblioteca/2_ciclo/11_classe/historia.pdf" target="_blank">História</a></div>
+                        <div class="livro"><img src="img/empreendedorismo.jpg" alt="Noções de Empreendedorismo"><a href="biblioteca/2_ciclo/11_classe/empreendedorismo.pdf" target="_blank">Noções de Empreendedorismo</a></div>
+                        <div class="livro"><img src="img/biologia1.jpg" alt="Biologia"><a href="biblioteca/2_ciclo/11_classe/biologia.pdf" target="_blank">Biologia</a></div>
+                        <div class="livro"><img src="img/tics1.jpg" alt="Tics"><a href="biblioteca/2_ciclo/11_classe/tics.pdf" target="_blank">Tics</a></div>
+                    </div>
+
+                    <h3 onclick="toggleDisplay('classe12')">12ª Classe ⮟</h3>
+                    <div id="classe12" class="hidden livros-container">
+                        <div class="livro"><img src="img/portugues.jpg" alt="Português"><a href="biblioteca/2_ciclo/12_classe/portugues.pdf" target="_blank">Português</a></div>
+                        <div class="livro"><img src="img/agropecuaria.jpg" alt="Agropecuária"><a href="biblioteca/2_ciclo/12_classe/agropecuaria.pdf" target="_blank">Agropecuária</a></div>
+                        <div class="livro"><img src="img/fisica.jpg" alt="Física"><a href="biblioteca/2_ciclo/12_classe/fisica.pdf" target="_blank">Física</a></div>
+                         <div class="livro"><img src="img/geografia.jpg" alt="Geografia"><a href="biblioteca/2_ciclo/12_classe/geografia.pdf" target="_blank">Geografia</a></div>
+                          <div class="livro"><img src="img/filosofia.jpg" alt="Filosofia"><a href="biblioteca/2_ciclo/12_classe/filosofia.pdf" target="_blank">Filosofia</a></div>
+                           <div class="livro"><img src="img/tics.jpg" alt="Tics"><a href="biblioteca/2_ciclo/12_classe/tics.pdf" target="_blank">Tics</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <a href="https://youtube.com/@escolasecundarianametil?si=Z5iTBFTU7edH2ctY" target="_blank" class="botao-youtube">
+        Acessar Canal da Escola
+    </a>
+
+    <footer>
+        <p>&copy; 2025 Escola Secundária de Nametil.</p>
+    </footer>
+</body>
+</html>

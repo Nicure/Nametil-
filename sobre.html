@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre a Escola</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="biblioteca.html">Biblioteca</a></li>
+                <li><a href="vitrine.html">Vitrine</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="sobre">
+            <h1>Sobre a Escola</h1>
+            <p>A Escola Secundária de Nametil é uma instituição de ensino dedicada à formação de jovens...</p>
+            
+            <div class="direcao">
+                <div class="diretor">
+                    <img src="images/diretor.jpg" alt="Diretor da Escola" class="foto-circular">
+                    <h3>Gomes Che</h3>
+                    <p>Director da Escola </p>
+                </div>
+                
+                <div class="sub-diretores">
+                    <div class="sub-diretor">
+                        <img src="images/amir.jpg" alt="Diretor Adjunto Amir" class="foto-circular">
+                        <h3>Amir</h3>
+                        <p>Diretor Adjunto</p>
+                    </div>
+                    <div class="sub-diretor">
+                        <img src="images/mena.jpg" alt="Chefe da Secretaria Mena Assupa" class="foto-circular">
+                        <h3>Mena Assupa</h3>
+                        <p>Chefe da Secretaria</p>
+                    </div>
+                </div>
+                
+                <div class="pedagogicas">
+                    <div class="pedagogica">
+                        <img src="images/melanie.jpg" alt="Pedagógica 1º Ciclo Melanie" class="foto-circular">
+                        <h3>Melanie</h3>
+                        <p>Pedagógica 1º Ciclo</p>
+                    </div>
+                    <div class="pedagogico">
+                        <img src="images/ginga.jpg" alt="Pedagógico 2º Ciclo Ginga" class="foto-circular">
+                        <h3>Ginga</h3>
+                        <p>Pedagógico 2º Ciclo</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mapa">
+                <h2>Localização</h2>
+                <iframe src="https://www.google.com/maps?q=Nametil&output=embed"></iframe>
+            </div>
+        </section>
+
+        <section class="disciplinas">
+            <h2>Disciplinas e Professores</h2>
+            <div class="botoes-disciplinas">
+                <button onclick="mostrarProfessores('tics')">TICs</button>
+                <button onclick="mostrarProfessores('biologia')">Biologia</button>
+                <button onclick="mostrarProfessores('quimica')">Química</button>
+                <button onclick="mostrarProfessores('fisica')">Física</button>
+                <button onclick="mostrarProfessores('educacao_fisica')">Educação Física</button>
+                <button onclick="mostrarProfessores('empreendedorismo')">Noções de Empreendedorismo</button>
+                <button onclick="mostrarProfessores('historia')">História</button>
+                <button onclick="mostrarProfessores('agropecuaria')">Agropecuária</button>
+                <button onclick="mostrarProfessores('filosofia')">Filosofia</button>
+                <button onclick="mostrarProfessores('ingles')">Inglês</button>
+                <button onclick="mostrarProfessores('frances')">Francês</button>
+                <button onclick="mostrarProfessores('portugues')">Português</button>
+            </div>
+            <div id="lista-professores"></div>
+        </section>
+    </main>
+    
+    <br>
+<p></p>
+<br>
+
+<br>
+    <footer>
+        <p>&copy; 2025 Escola Secundária de Nametil.</p>
+    </footer>
+</body>
+</html>
